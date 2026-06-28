@@ -1,0 +1,15 @@
+{
+  "item_settings": {
+    "display_name": {
+      "type": "translatable",
+      "translate": "无尽之书"
+    },
+    "tooltip_lines": [
+      {
+        "text": "蕴含着通往无尽所需的一切知识",
+        "color": "dark_gray"
+      }
+    ],
+    "model": "zti:item/guide"
+  }
+}

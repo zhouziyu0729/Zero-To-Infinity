@@ -1,0 +1,6 @@
+#2DC minecraft:deep_dark
+#3A0 minecraft:frozen_river
+#286 minecraft:grove
+#51E minecraft:jagged_peaks
+#340 minecraft:snowy_taiga
+#495 minecraft:the_void

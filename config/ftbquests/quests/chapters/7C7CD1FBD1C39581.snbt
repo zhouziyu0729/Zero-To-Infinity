@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7C7CD1FBD1C39581"
+	group: "799F591672CBAADD"
+	hide_quest_until_deps_visible: true
+	icon: "zti:catalyst_blood"
+	id: "7C7CD1FBD1C39581"
+	order_index: 0
+	quest_links: [{
+		id: "670AB8889C717F4B"
+		linked_quest: "79502B3DE3DC806C"
+		shape: "gear"
+		size: 2.0d
+		x: -5.0d
+		y: -1.0d
+	}]
+	quests: [ ]
+	title: "血魔法"
+}

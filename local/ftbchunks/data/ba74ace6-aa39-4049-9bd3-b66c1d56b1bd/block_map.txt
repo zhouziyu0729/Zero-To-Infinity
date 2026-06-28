@@ -1,0 +1,8 @@
+#52B53D minecraft:air
+#F522F4 minecraft:chest
+#058353 minecraft:cobblestone
+#33DE36 zti:compressor
+#468304 minecraft:crafting_table
+#2DC94B minecraft:furnace
+#88BAFA minecraft:gravel
+#DC3458 minecraft:stone

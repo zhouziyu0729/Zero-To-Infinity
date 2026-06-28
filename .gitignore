@@ -1,0 +1,80 @@
+# ====================
+# 操作系统或系统文件
+# ====================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ====================
+# IDE 及编辑器配置（避免团队冲突）
+# ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# ====================
+# 依赖与包管理目录
+# ====================
+node_modules/
+vendor/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+target/
+out/
+
+# ====================
+# 日志、缓存和临时文件
+# ====================
+*.log
+*.tmp
+*.cache
+*.temp
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# ====================
+# 环境变量与敏感信息（密钥/密码）
+# ====================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+config/secrets.yml
+
+# ====================
+# 项目运行时的本地数据
+# ====================
+/saves/
+
+# ====================
+# 没用的小玩意
+# ====================
+
+*.ttf
+/usercache.json
+/usernamecache.json
+/patchouli_data.json
+/rhino.local.properties
+/shaderpacks
+/PCL/
+/crash-reports/
+/patchouli_books/
+/resourcepacks/PCL2 Skin.zip
+/hotbar.nbt

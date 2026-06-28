@@ -1,0 +1,16 @@
+#D72E07 bloodmagic:altar
+#468304 minecraft:crafting_table
+#80497A minecraft:dirt
+#A86BF7 pipez:fluid_pipe
+#2DC94B minecraft:furnace
+#3F84B7 minecraft:grass_block
+#88BAFA minecraft:gravel
+#9013A1 avaritia:infinity_chest
+#2B1FD4 minecraft:jigsaw
+#92F0E9 mekanism:metallurgic_infuser
+#BBA6D1 minecraft:oak_log
+#5F0D54 mekanism:pressurized_reaction_chamber
+#DC3458 minecraft:stone
+#B96EB4 minecraft:structure_block
+#BE2EA6 mekanism:ultimate_chemical_tank
+#89780A mekanism:ultimate_fluid_tank

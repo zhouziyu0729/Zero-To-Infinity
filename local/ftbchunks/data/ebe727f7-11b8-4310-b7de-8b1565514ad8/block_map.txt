@@ -1,0 +1,7 @@
+#52B53D minecraft:air
+#840F59 minecraft:bedrock
+#889C43 minecraft:end_portal
+#622CB1 minecraft:end_portal_frame
+#A8CFF4 minecraft:end_stone
+#4A5E4E minecraft:obsidian
+#DC3458 minecraft:stone

@@ -1,0 +1,25 @@
+{
+  "ignore_initial_click": "constant",
+  "idle": {
+    "timeout": 60,
+    "condition": "none"
+  },
+  "states": {
+    "hovered": {
+      "show_toasts": false
+    },
+    "unfocused": {
+      "frame_rate_target": 2,
+      "graphics_state": "reduced",
+      "run_garbage_collector": true
+    },
+    "invisible": {
+      "graphics_state": "reduced",
+      "run_garbage_collector": true
+    },
+    "unplugged": {
+      "frame_rate_target": 60,
+      "enable_vsync": false
+    }
+  }
+}

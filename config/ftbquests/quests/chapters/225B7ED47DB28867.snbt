@@ -1,0 +1,81 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "225B7ED47DB28867"
+	group: ""
+	icon: "minecraft:stone"
+	id: "225B7ED47DB28867"
+	images: [{
+		height: 10.0d
+		image: "kubejs:item/zerotoinfinity"
+		rotation: 0.0d
+		width: 11.89873417721519d
+		x: -7.0d
+		y: -5.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&4请确保创建的是空岛世界以获得完整体验"
+				""
+				"本整合包已关闭生物自然生成"
+			]
+			hide_dependency_lines: false
+			id: "1684C34E8B1E4BC7"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "36C8BF57868B4579"
+				title: "欢迎来到ZTI"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1684C34E8B1E4BC7"]
+			description: [
+				"石器时代！"
+				"&7&o提示：点击任务界面右上角的“查看任务链接按钮”可以跳转至相应任务界面"
+			]
+			hide_dependency_lines: false
+			id: "6175FD1D919CC1A3"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0A17375611423758"
+				title: "1"
+				type: "checkmark"
+			}]
+			title: "开始游戏吧"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1684C34E8B1E4BC7"]
+			id: "5F6037A29F36688E"
+			rewards: [{
+				id: "0A0DC632C9670BC4"
+				item: {
+					Count: 1
+					id: "guideme:guide"
+					tag: {
+						guideId: "zti:guide"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "691BC92E3E914B45"
+				type: "checkmark"
+			}]
+			title: "指南"
+			x: -7.0d
+			y: -6.0d
+		}
+	]
+	title: "开始之前"
+}

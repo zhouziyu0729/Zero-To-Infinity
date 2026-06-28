@@ -1,0 +1,2 @@
+#52B53D minecraft:air
+#DC3458 minecraft:stone

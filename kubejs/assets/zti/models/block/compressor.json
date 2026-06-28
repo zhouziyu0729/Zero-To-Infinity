@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "zti:block/compressor/side",
+    "north": "zti:block/compressor/face",
+    "south": "zti:block/compressor/side",
+    "east":  "zti:block/compressor/side",
+    "west":  "zti:block/compressor/side",
+    "up":    "zti:block/compressor/side",
+    "down":  "zti:block/compressor/side"
+  }
+}

@@ -1,0 +1,3 @@
+#52B53D minecraft:air
+#DC3458 minecraft:stone
+#9D5016 pipez:universal_pipe

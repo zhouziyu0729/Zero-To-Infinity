@@ -1,0 +1,517 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "01"
+	group: "451D62BFB8CC7D89"
+	icon: "zti:shard_stone"
+	id: "3FC5BA6CE70F19D2"
+	order_index: 0
+	quest_links: [{
+		id: "06A3280DF1A90391"
+		linked_quest: "6175FD1D919CC1A3"
+		shape: "gear"
+		size: 2.0d
+		x: -13.0d
+		y: -1.0d
+	}]
+	quests: [
+		{
+			dependencies: ["6175FD1D919CC1A3"]
+			description: [
+				"空手右击石头即可获得"
+				"每次空手右击有5%概率破坏石头"
+			]
+			hide_dependency_lines: false
+			id: "222602A840DB6EB6"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "无中生有？"
+			tasks: [{
+				id: "757E94B0D94CF5C0"
+				item: "zti:shard_stone"
+				type: "item"
+			}]
+			title: "开始..."
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["222602A840DB6EB6"]
+			description: [
+				"空手右击圆石即可获得"
+				"每次空手右击有5%概率破坏圆石"
+			]
+			hide_dependency_lines: false
+			id: "78FC2173E60F50E7"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "5ABD0F90E11FC9B4"
+				item: "zti:particle_stone"
+				type: "item"
+			}]
+			title: "进一步"
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["78FC2173E60F50E7"]
+			description: [
+				"同样的，空手右击沙砾即可获得"
+				"5%概率破坏"
+			]
+			hide_dependency_lines: false
+			id: "21CC6ECAE7C3672A"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "12C46E5F250CDA6D"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			title: "继续"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["21CC6ECAE7C3672A"]
+			description: ["工作台的配方被魔改了，可以在JEI中查看"]
+			hide_dependency_lines: false
+			id: "7B3D6D8B0345607F"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "716F670526AB19AB"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "开始合成！"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7B3D6D8B0345607F"]
+			description: [
+				"火石是你目前能用的唯一燃料"
+				""
+				"不久后，你可能会用到大量熔炉以加快烧炼速度"
+			]
+			hide_dependency_lines: false
+			id: "00AF01E424FE6FBE"
+			rewards: [
+				{
+					count: 4
+					id: "15A593D25CF95E9B"
+					item: "zti:firestone"
+					type: "item"
+				}
+				{
+					id: "33D3E7841FCFDEFB"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5D068A92FD03153B"
+					item: "zti:firestone"
+					type: "item"
+				}
+				{
+					id: "6C25097E5D32BA6F"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+			]
+			title: "开始熔炼"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["00AF01E424FE6FBE"]
+			description: [
+				"你可以用石头获得石头碎片，用石头碎片合成圆石，圆石熔炼成石头"
+				"源源不断的石头！"
+				""
+				"你可能需要多做几个熔炉来快速熔炼"
+				""
+				"注：由于目前没有物流手段，你只能人工操作熔炉"
+			]
+			hide_dependency_lines: false
+			id: "45EBB30092AA6B07"
+			rewards: [{
+				count: 8
+				id: "3DCFC19128B25471"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "物理学不存在了？"
+			tasks: [{
+				id: "5EBDC91D8D41DAED"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			title: "无中生有！"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7B3D6D8B0345607F"]
+			description: ["压缩工具的使用方法详见教程"]
+			hide_dependency_lines: false
+			id: "03EC249BDE283088"
+			rewards: [{
+				id: "0C955794A553BE86"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&4建议先去完成熔炉任务，否则可能会死档"
+			tasks: [
+				{
+					id: "0C5BB48BD2360E52"
+					item: "zti:compressing_tool"
+					type: "item"
+				}
+				{
+					id: "204776CEA9FD92F1"
+					item: "zti:1compressed_cobblestone"
+					type: "item"
+				}
+			]
+			title: "压缩"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["03EC249BDE283088"]
+			description: ["压缩机能更高效地压缩，并解锁t2和t3圆石压缩"]
+			hide_dependency_lines: false
+			id: "4C5C160FBEEF2916"
+			rewards: [{
+				count: 2
+				id: "69EA797F1AE3E763"
+				item: "zti:2compressed_cobblestone"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "146FEA97E01D9E5F"
+					item: "zti:compressor"
+					type: "item"
+				}
+				{
+					id: "2BE86C1F6B5D6D1A"
+					item: "zti:2compressed_cobblestone"
+					type: "item"
+				}
+			]
+			title: "继续压缩！"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["03EC249BDE283088"]
+			description: ["帮你更快地提取方块中的物品"]
+			id: "50E1F86A1F5371F4"
+			rewards: [{
+				count: 64
+				id: "56511F073F8C5619"
+				item: "zti:shard_stone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "770C7984E06E2FF8"
+				item: "zti:extractor_t1"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			description: [""]
+			hide_dependency_lines: false
+			id: "10B1439C9F5F7E0E"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "4315B74C61312C84"
+				item: "minecraft:waxed_weathered_cut_copper_stairs"
+				type: "item"
+			}]
+			title: "test"
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4C5C160FBEEF2916"
+				"17AAE568DC0CF665"
+			]
+			description: ["一种由石头制成的能量载体，能用来制造多种有用的物品"]
+			hide_dependency_lines: false
+			id: "515A9906B8E6A63B"
+			rewards: [{
+				count: 4
+				id: "0BBFDCB5C0DC3F94"
+				item: "zti:2compressed_cobblestone"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "有点贵"
+			tasks: [{
+				id: "72CA461CBEB6F630"
+				item: "zti:star_stone"
+				type: "item"
+			}]
+			title: "石头之星"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["00AF01E424FE6FBE"]
+			description: [
+				"只能使用火石当燃料，4倍速度，4倍燃料效率"
+				""
+				"同时，能处理一些高级熔炉专属配方"
+			]
+			id: "17AAE568DC0CF665"
+			rewards: [{
+				count: 16
+				id: "09C118AB735B8795"
+				item: "zti:firestone"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "7528C487AC9193B0"
+				item: "zti:1compressed_furnace"
+				type: "item"
+			}]
+			title: "更快地熔炼"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["17AAE568DC0CF665"]
+			description: ["只能使用火石当燃料，20倍速度，20倍燃料效率"]
+			id: "017E2C29589ED0C4"
+			rewards: [{
+				count: 64
+				id: "1004F2B4A6202D15"
+				item: "zti:firestone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "673E11B1A13FAD8D"
+				item: "zti:2compressed_furnace"
+				type: "item"
+			}]
+			title: "更快更快地熔炼"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"515A9906B8E6A63B"
+				"50E1F86A1F5371F4"
+			]
+			description: ["虽然它不能从一个石头里提取出更多物品，但它能让你更方便地从石头中提取物品"]
+			id: "5F2FC5A0CB41F832"
+			tasks: [{
+				id: "5FAB117CD17BE0D5"
+				item: "zti:auto_extractor_t1"
+				type: "item"
+			}]
+			title: "自动提取"
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"5F2FC5A0CB41F832"
+				"0B47E80E3A9C29D6"
+			]
+			description: ["提取产物从20变为64"]
+			id: "6852BE7D71F84A46"
+			tasks: [{
+				id: "13314811215FE1EA"
+				item: "zti:auto_extractor_t2"
+				type: "item"
+			}]
+			title: "多就是好！"
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["515A9906B8E6A63B"]
+			description: [
+				"不要被8颗石头之星的造价吓到，你现在有很多方式能提高石头产量 / 降低石头之星造价"
+				""
+				"你可以选择搭建一条自动产线，等着石头生产，在等待的过程中去发展血魔法"
+				""
+				"做出第一个催化剂后，你能把催化剂的造价降低75%"
+			]
+			hide_dependency_lines: false
+			id: "53551AD6F146DA03"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "更贵了"
+			tasks: [{
+				id: "6F35DA58EA8E4A74"
+				item: "zti:catalyst_stone"
+				type: "item"
+			}]
+			title: "石头催化剂"
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["515A9906B8E6A63B"]
+			description: [
+				"pipez除通用管道外的管道可以在2*2合成台中相互转换！多么方便的设计！"
+				"详见jei配方"
+			]
+			id: "4B62ECB1950371CF"
+			rewards: [{
+				count: 16
+				id: "70704131669CD070"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "75E444B0E7CC9E48"
+					item: "pipez:item_pipe"
+					type: "item"
+				}
+				{
+					id: "1BEFE8EEE5FC602C"
+					item: "pipez:wrench"
+					type: "item"
+				}
+			]
+			title: "自动化的基石"
+			x: 11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"515A9906B8E6A63B"
+				"0E1A1AD080F4B149"
+			]
+			description: [""]
+			hide_dependency_lines: false
+			id: "79502B3DE3DC806C"
+			min_required_dependencies: 1
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "3AF18141B37F43C2"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			title: "血魔法"
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["515A9906B8E6A63B"]
+			description: ["从一个方块中提取64个物品"]
+			id: "0B47E80E3A9C29D6"
+			tasks: [{
+				id: "75286323A8471E6C"
+				item: "zti:extractor_t2"
+				type: "item"
+			}]
+			title: "更好的提取器"
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"515A9906B8E6A63B"
+				"6D989BCB951FCE32"
+			]
+			description: ["对血魔法的发展有很大帮助"]
+			id: "0E1A1AD080F4B149"
+			tasks: [{
+				id: "38D13D94EC6DFD70"
+				item: "zti:meatball_star_stone"
+				type: "item"
+			}]
+			title: "很op的食物"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["45EBB30092AA6B07"]
+			id: "29ABB8C9FB552547"
+			tasks: [{
+				id: "4FD8E693F114FA43"
+				item: "zti:meatball_stone_raw"
+				type: "item"
+			}]
+			title: "食物"
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"29ABB8C9FB552547"
+				"17AAE568DC0CF665"
+			]
+			id: "6D989BCB951FCE32"
+			tasks: [{
+				id: "791619B53020EDC8"
+				item: "zti:meatball_stone_cooked"
+				type: "item"
+			}]
+			title: "更好的食物"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["222602A840DB6EB6"]
+			description: ["你可以用石棍代替木棍"]
+			id: "676A1FF6A464A81E"
+			subtitle: "这不是必须的"
+			tasks: [{
+				id: "5270FDE732B168DB"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "工具"
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["515A9906B8E6A63B"]
+			description: ["可以更便捷且廉价地制作物品"]
+			id: "5BD83C27F4E973D8"
+			tasks: [{
+				id: "75B9A2B8353DAFDA"
+				item: "zti:etcher"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+	]
+	title: "01-石器时代"
+}

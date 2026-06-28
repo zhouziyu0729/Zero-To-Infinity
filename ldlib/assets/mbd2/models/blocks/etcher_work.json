@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "mbd2:block/etcher/side",
+    "north": "mbd2:block/etcher/face_work",
+    "south": "mbd2:block/etcher/side",
+    "east":  "mbd2:block/etcher/side",
+    "west":  "mbd2:block/etcher/side",
+    "up":    "mbd2:block/etcher/side",
+    "down":  "mbd2:block/etcher/side"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "block.zti.compressor": "压缩机",
+    "block.zti.1compressed_furnace": "压缩熔炉t1",
+    "block.zti.2compressed_furnace": "压缩熔炉t2",
+    "block.zti.etcher": "蚀刻器",
+    "block.zti.auto_extractor_t1": "自动提取机t1",
+    "block.zti.auto_extractor_t2": "自动提取机t2",
+    "zti.auto_extractor": "自动提取机",
+    "zti.compress": "压缩机",
+    "zti.compressed_furnace": "压缩熔炉",
+    "zti.etcher": "蚀刻器",
+    "item.zti.infinity_book": "无尽之书"
+}

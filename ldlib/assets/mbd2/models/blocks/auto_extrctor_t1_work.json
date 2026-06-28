@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "mbd2:block/auto_extractor_t1/side",
+    "north": "mbd2:block/auto_extractor_t1/face_work",
+    "south": "mbd2:block/auto_extractor_t1/side",
+    "east":  "mbd2:block/auto_extractor_t1/side",
+    "west":  "mbd2:block/auto_extractor_t1/side",
+    "up":    "mbd2:block/auto_extractor_t1/side",
+    "down":  "mbd2:block/auto_extractor_t1/side"
+  }
+}

@@ -1,0 +1,8 @@
+#969E84 zti:1compressed_cobblestone
+#C837C5 zti:2compressed_cobblestone
+#F9D106 zti:3compressed_cobblestone
+#52B53D minecraft:air
+#058353 minecraft:cobblestone
+#33DE36 zti:compressor
+#879B54 mekanism:rotary_condensentrator
+#DC3458 minecraft:stone

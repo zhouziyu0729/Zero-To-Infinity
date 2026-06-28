@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "zti:block/compressor", "y": 0 },
+    "facing=east":  { "model": "zti:block/compressor", "y": 90 },
+    "facing=south": { "model": "zti:block/compressor", "y": 180 },
+    "facing=west":  { "model": "zti:block/compressor", "y": 270 }
+  }
+}

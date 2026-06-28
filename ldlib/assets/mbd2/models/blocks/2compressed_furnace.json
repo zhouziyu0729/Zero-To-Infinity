@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "mbd2:block/2compressed_furnace/side",
+    "north": "mbd2:block/2compressed_furnace/face",
+    "south": "mbd2:block/2compressed_furnace/side",
+    "east":  "mbd2:block/2compressed_furnace/side",
+    "west":  "mbd2:block/2compressed_furnace/side",
+    "up":    "mbd2:block/2compressed_furnace/top",
+    "down":  "mbd2:block/2compressed_furnace/top"
+  }
+}

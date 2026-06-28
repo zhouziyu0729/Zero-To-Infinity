@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/zhouz/Desktop/MC/PCL/.minecraft/versions/Zero To Infinity/saves/test
+}
+

@@ -1,0 +1,5 @@
+#556 minecraft:beach
+#3D6 minecraft:cold_ocean
+#3DC minecraft:plains
+#5FF minecraft:river
+#495 minecraft:the_void

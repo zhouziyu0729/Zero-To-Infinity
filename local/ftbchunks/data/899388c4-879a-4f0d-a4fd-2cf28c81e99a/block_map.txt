@@ -1,0 +1,3 @@
+#52B53D minecraft:air
+#C229C3 avaritia:sculk_crafting_table
+#DC3458 minecraft:stone

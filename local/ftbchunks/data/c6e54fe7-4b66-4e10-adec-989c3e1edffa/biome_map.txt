@@ -1,0 +1,5 @@
+#556 minecraft:beach
+#008 minecraft:desert
+#4B0 minecraft:jungle
+#28D minecraft:mangrove_swamp
+#495 minecraft:the_void

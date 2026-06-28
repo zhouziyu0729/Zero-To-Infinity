@@ -1,0 +1,8 @@
+#556 minecraft:beach
+#34D minecraft:deep_lukewarm_ocean
+#79A minecraft:lukewarm_ocean
+#073 minecraft:mushroom_fields
+#3DC minecraft:plains
+#67B minecraft:savanna
+#495 minecraft:the_void
+#579 minecraft:windswept_savanna
