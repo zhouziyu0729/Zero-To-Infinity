@@ -1,12 +1,12 @@
 ServerEvents.recipes(event =>{
 
     event.custom({
-        "type": 'bloodmagic:altar',
-        "input": {
-        "tag": "forge:gems/diamond"
+        type: 'bloodmagic:altar',
+        input: {
+        item:'zti:3compresses_cobblestone'
         },
-        "output": {
-            "item": "bloodmagic:weakbloodorb"
+        output: {
+            item: 'bloodmagic:weakbloodorb'
         },
         "upgradeLevel": 0,
         "altarSyphon": 2000,

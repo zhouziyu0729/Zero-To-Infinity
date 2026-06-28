@@ -14,6 +14,7 @@
 #89CCFB bloodmagic:blankrune
 #208CB0 ae2:cable_bus
 #5A123C minecraft:cartography_table
+#9B5717 zti:centrifuger
 #F522F4 minecraft:chest
 #058353 minecraft:cobblestone
 #33DE36 zti:compressor
@@ -23,7 +24,9 @@
 #6B35EC mekanism:creative_fluid_tank
 #E432BC ae2:drive
 #23E672 zti:etcher
+#5A85FF expatternprovider:ex_interface
 #2DC94B minecraft:furnace
+#5EAC32 zti:grinder
 #91A9DA mekanism_extras:infinite_infusing_factory
 #C6F614 mekanism_extras:infinite_mechanical_pipe
 #973D2D emextras:infinite_multiversal_alloying_factory
@@ -34,9 +37,11 @@
 #23066B ae2:interface
 #79904E pipez:item_pipe
 #30A26E zti:large_chest
+#83CED3 minecraft:lava
 #92F0E9 mekanism:metallurgic_infuser
 #569F3B evolvedmekanism:multiversal_smelting_factory
 #F24163 storagedrawers:oak_full_drawers_1
+#2249A1 expatternprovider:oversize_interface
 #872D76 minecraft:snow
 #B639FD zti:star_coagulator
 #DC3458 minecraft:stone

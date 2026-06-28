@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "mbd2:block/grinder/side",
+    "north": "mbd2:block/grinder/face_work",
+    "south": "mbd2:block/grinder/face_work",
+    "east":  "mbd2:block/grinder/face_work",
+    "west":  "mbd2:block/grinder/face_work",
+    "up":    "mbd2:block/grinder/side",
+    "down":  "mbd2:block/grinder/side"
+  }
+}

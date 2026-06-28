@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "mbd2:block/centrifuger/side",
+    "north": "mbd2:block/centrifuger/face_work",
+    "south": "mbd2:block/centrifuger/face_work",
+    "east":  "mbd2:block/centrifuger/face_work",
+    "west":  "mbd2:block/centrifuger/face_work",
+    "up":    "mbd2:block/centrifuger/up_work",
+    "down":  "mbd2:block/centrifuger/side"
+  }
+}

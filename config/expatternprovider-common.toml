@@ -1,6 +1,6 @@
 #ME Extend Import/Export Bus speed multiplier
 #Range: 2 ~ 128
-exBusMultiplier = 8
+exBusMultiplier = 128
 #ME Infinity Cell idle energy cost (unit: AE/t)
 #Range: 0.1 ~ 64.0
 cost = 8.0
@@ -20,7 +20,7 @@ disableItemRender = false
 	wireless_connector_power_multiplier = 1.0
 	#Size multiplier of oversize interface
 	#Range: 2 ~ 4096
-	oversize_interface_multiplier = 16
+	oversize_interface_multiplier = 4096
 	#Set multiplier for specific AEKeyType in oversize interface
 	custom_oversize_interface_multiplier = ["appbot:mana 2", "appflux:flux 4"]
 	#The max size of Assembler Matrix
